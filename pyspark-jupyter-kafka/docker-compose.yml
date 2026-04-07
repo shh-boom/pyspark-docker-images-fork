@@ -13,6 +13,7 @@ services:
       GRANT_SUDO: yes
     volumes:
       - streaming_data:/data:rw
+      - /Users/shubhamburbure/Study/pyspark-docker-images-fork/pyspark-jupyter-kafka/exercise:/home/jupyter/exercise:rw
 
   ed-zookeeper:
     image: confluentinc/cp-zookeeper:7.5.3
