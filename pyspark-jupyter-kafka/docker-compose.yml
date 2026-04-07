@@ -4,6 +4,13 @@ services:
     image: easewithdata/pyspark-jupyter-lab
     user: root
     container_name: ed-pyspark-jupyter-lab
+    command: >
+      python3 -m jupyterlab
+      --ip=0.0.0.0
+      --allow-root
+      --ServerApp.token=''
+      --ServerApp.password=''
+      --IdentityProvider.token=''
     ports:
       - 8888:8888
       - 4040:4040
