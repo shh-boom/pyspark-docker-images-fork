@@ -21,6 +21,7 @@ services:
     volumes:
       - streaming_data:/data:rw
       - /Users/shubhamburbure/Study/pyspark-docker-images-fork/pyspark-jupyter-kafka/exercise:/home/jupyter/exercise:rw
+      - /Users/shubhamburbure/Study/pyspark-docker-images-fork/pyspark-jupyter-kafka/spark-streaming-with-pyspark-fork:/home/jupyter/spark-streaming-with-pyspark-fork:rw
 
   ed-zookeeper:
     image: confluentinc/cp-zookeeper:7.5.3
