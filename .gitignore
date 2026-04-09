@@ -1,4 +1,6 @@
 .idea/*
 
 .ipynb_checkpoints/*
-.jupyter/**
+**/.jupyter/
+**/.jupyter/**
+**/checkpoint*
