@@ -24,6 +24,7 @@ services:
       - streaming_data:/data:rw
       - /Users/shubhamburbure/Study/pyspark-docker-images-fork/pyspark-jupyter-kafka/exercise:/home/jupyter/exercise:rw
       - /Users/shubhamburbure/Study/pyspark-docker-images-fork/pyspark-jupyter-kafka/spark-streaming-with-pyspark-fork:/home/jupyter/spark-streaming-with-pyspark-fork:rw
+      - /Users/shubhamburbure/Study/pyspark-docker-images-fork/pyspark-jupyter-kafka/ease-with-apache-spark:/home/jupyter/ease-with-apache-spark:rw
       - /Users/shubhamburbure/Study/pyspark-docker-images-fork/pyspark-jupyter-kafka/.jupyter:/root/.local/share/jupyter:rw
 
   ed-zookeeper:
