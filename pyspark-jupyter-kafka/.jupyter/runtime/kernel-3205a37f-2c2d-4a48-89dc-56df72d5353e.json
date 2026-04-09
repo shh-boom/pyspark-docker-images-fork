@@ -1,0 +1,13 @@
+{
+  "shell_port": 58615,
+  "iopub_port": 50467,
+  "stdin_port": 51007,
+  "control_port": 50835,
+  "hb_port": 47145,
+  "ip": "127.0.0.1",
+  "key": "5a49561e-bb19c234aeed5fc1ea6edd3f",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/jupyter/exercise/02_batch_reading_from_files.ipynb"
+}
