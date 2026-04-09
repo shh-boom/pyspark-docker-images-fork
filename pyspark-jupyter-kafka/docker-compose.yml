@@ -82,5 +82,17 @@ services:
     volumes:
       - ./seed-data:/etc/sqlpad/seed-data
 
+  ed-mongodb:
+    image: mongo:7.0
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodata:/data/db
+
 volumes:
   streaming_data:
+  mongodata:
+    driver: local
