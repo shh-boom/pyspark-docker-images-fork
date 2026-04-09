@@ -1,0 +1,13 @@
+{
+  "shell_port": 50253,
+  "iopub_port": 51141,
+  "stdin_port": 38783,
+  "control_port": 48243,
+  "hb_port": 48913,
+  "ip": "127.0.0.1",
+  "key": "af8bb9d7-3959b900f7ff2ca55f2509e1",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "pyspark-docker",
+  "jupyter_session": "/home/jupyter/03_reading_from_kafka-935034d8-2552-4fac-8d4d-e3888fefa182.ipynb"
+}
