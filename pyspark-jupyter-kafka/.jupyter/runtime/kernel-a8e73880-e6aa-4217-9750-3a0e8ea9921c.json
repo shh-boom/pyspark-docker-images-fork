@@ -1,0 +1,13 @@
+{
+  "shell_port": 57791,
+  "iopub_port": 49199,
+  "stdin_port": 43601,
+  "control_port": 40529,
+  "hb_port": 47369,
+  "ip": "127.0.0.1",
+  "key": "abc36b66-35751e2d9d3e24752612f7dd",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "pyspark-docker",
+  "jupyter_session": "/home/jupyter/Stream-1171a87d-699f-4fd3-9aa8-fe781821854f.ipynb"
+}

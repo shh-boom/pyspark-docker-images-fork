@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "/usr/local/bin/python3",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "PySpark (Docker)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}
