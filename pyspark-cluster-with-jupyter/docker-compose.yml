@@ -3,6 +3,15 @@ services:
   bd-pyspark-jupyter:
     image: easewithdata/pyspark-jupyter-lab-old
     container_name: bd-pyspark-jupyter-lab
+    command: >
+      /bin/bash -lc "python3 -m ipykernel install --user --name pyspark-docker --display-name 'PySpark (Docker)' &&
+      python3 -m jupyterlab
+      --ip=0.0.0.0
+      --allow-root
+      --ServerApp.token=''
+      --ServerApp.password=''
+      --IdentityProvider.token=''
+      --ServerApp.disable_check_xsrf=True"
     ports:
         - 8888:8888
         - 4040:4040
@@ -11,6 +20,8 @@ services:
         SPARK_UI_PORT: 4040
     volumes:
         - spark_data:/data:rw
+        - ./exercise:/home/jupyter/exercise:rw
+        - ./.jupyter:/root/.local/share/jupyter:rw
   bd-spark-master:
     image: bde2020/spark-master:3.3.0-hadoop3.3
     #command: ln -s /usr/bin/python3 /usr/local/bin/python
