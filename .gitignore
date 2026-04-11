@@ -1,5 +1,7 @@
 .idea/*
 
+pyspark-cluster-with-jupyter/pyspark-zero-to-hero-fork/
+
 .ipynb_checkpoints/*
 **/.jupyter/
 **/.jupyter/**
