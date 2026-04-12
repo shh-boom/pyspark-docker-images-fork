@@ -22,7 +22,7 @@ services:
         - spark_data:/data:rw
         - ./exercise:/home/jupyter/exercise:rw
         - ./.jupyter:/root/.local/share/jupyter:rw
-        - ./pyspark-zero-to-hero-fork:/home/jupyter/pyspark-zero-to-hero
+        # - ./pyspark-zero-to-hero-fork:/home/jupyter/pyspark-zero-to-hero
   bd-spark-master:
     image: bde2020/spark-master:3.3.0-hadoop3.3
     #command: ln -s /usr/bin/python3 /usr/local/bin/python
